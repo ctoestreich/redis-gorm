@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="GrailsWeb">
+      <configuration>
+        <webroots>
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-ui-1.8.11/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0/grails-app/views" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cache-headers-1.1.5/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/zipped-resources-1.0/web-app" relative="/" />
+          <root url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/zipped-resources-1.0/grails-app/views" relative="/" />
+        </webroots>
+        <sourceRoots />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cache-headers-1.1.5">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cache-headers-1.1.5/grails-app/services" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cache-headers-1.1.5/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cache-headers-1.1.5/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cache-headers-1.1.5/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/cached-resources-1.0/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/hibernate-1.4.0.M1">
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/hibernate-1.4.0.M1/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/hibernate-1.4.0.M1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/hibernate-1.4.0.M1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-1.6.1.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-ui-1.8.11">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-ui-1.8.11/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-ui-1.8.11/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-ui-1.8.11/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/jquery-ui-1.8.11/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/redis-1.0.0.M6">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/redis-1.0.0.M6/src/groovy" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/redis-1.0.0.M6/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/redis-1.0.0.M6/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/redis-1.0.0.M6/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/src/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/grails-app/services" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/grails-app/taglib" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/resources-1.0/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/springcache-1.3.1">
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/springcache-1.3.1/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/springcache-1.3.1/grails-app/services" isTestSource="false" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/springcache-1.3.1/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/springcache-1.3.1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/springcache-1.3.1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/tomcat-1.4.0.M1">
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/tomcat-1.4.0.M1/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/tomcat-1.4.0.M1/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/tomcat-1.4.0.M1/web-app/plugins" />
+    </content>
+    <content url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/zipped-resources-1.0">
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/zipped-resources-1.0/target/classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/zipped-resources-1.0/target/test-classes" />
+      <excludeFolder url="file://$USER_HOME_GRAILS$/1.4.0.M1/projects/redis-gorm/plugins/zipped-resources-1.0/web-app/plugins" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" scope="PROVIDED" name="grails-1.4.0.M1" level="application" />
+    <orderEntry type="module-library" exported="">
+      <library name="Grails User Library (redis-gorm-grailsPlugins)">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ivy2/cache/net.sf.ehcache/ehcache-web/jars/ehcache-web-2.0.3.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-datastore-web/jars/spring-datastore-web-1.0.0.M6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.springframework/spring-datastore-redis/jars/spring-datastore-redis-1.0.0.M6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.grails/grails-datastore-gorm-redis/jars/grails-datastore-gorm-redis-1.0.0.M6.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/redis.clients/jedis/jars/jedis-1.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/.ivy2/cache/org.grails/grails-datastore-gorm-test/jars/grails-datastore-gorm-test-1.0.0.M6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+
