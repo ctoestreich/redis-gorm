@@ -16,19 +16,21 @@
 <BR>
 
 <script type="text/javascript">
-    $(function() {
+  $(function() {
     $("#container").ajaxgraph({
                                 redisUrl: '/redis-gorm/dataTest/makeRedis',
                                 gormUrl: '/redis-gorm/dataTest/makeGorm',
                                 title: 'Redis vs. Gorm (H2 mem) Save Time',
-                                increment: 2
+                                increment: 2, //multiple by this number every run for records to process
+                                limit: 128000 //stop after this number
                               });
 
     $("#container2").ajaxgraph({
                                  redisUrl: '/redis-gorm/dataTest/getRedis',
                                  gormUrl: '/redis-gorm/dataTest/getGorm',
-                                 title: 'Redis vs. Gorm (H2 mem) Get Time',
-                                 increment: 2
+                                 title: 'Redis vs. Gorm (H2 mem) Read Time',
+                                 increment: 2,
+                                 limit: 256000
                                });
   });
 
@@ -38,7 +40,8 @@
                  redisUrl: '/redis-gorm/dataTest/makeRedis',
                  gormUrl: '/redis-gorm/dataTest/makeGorm',
                  title: 'No Title',
-                 increment: 2
+                 increment: 2,
+                 limit: 1000000
                },
                _create: function() {
                  console.log("created ajaxgraph");
@@ -46,6 +49,7 @@
                  self.chart = null;
                  self.running = "true";
                  self.recordCount = 2;
+                 self.limit = self.options.limit;
                  self.id = self.element.attr("id");
                  self._createButtons();
                  $.when(self._createChart()).then(self._processData());
@@ -88,12 +92,12 @@
                  ).then(function(rData, gData) {
                           self.recordCount = Math.ceil(self.recordCount *= self.options.increment);
                           $("#" + self.id + "recordCount").html(self.recordCount);
-                          console.log("count", self.recordCount);
                           var x = (new Date()).getTime();
                           self.chart.series[0].addPoint([x, parseInt(gData)], true, true);
                           self.chart.series[1].addPoint([x, parseInt(rData)], true, true);
 //                          if(self.running) self._processData();
-                          self._processData();
+                          console.log(self.recordCount < self.options.limit);
+                          (self.recordCount < self.options.limit) ? self._processData() : $("#" + self.id + "recordCount").prepend("<p align=\"center\">Limit Reached(" + self.options.limit + ")</p>");
                         }, self._failure)
                },
                _failure: function() {
